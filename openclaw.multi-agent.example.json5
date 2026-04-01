@@ -1,0 +1,41 @@
+{
+  agents: {
+    defaults: {
+      skipBootstrap: true,
+    },
+    list: [
+      {
+        id: "planner",
+        workspace: "~/.openclaw/workspace-media-planner",
+        identity: {
+          name: "Media Planner",
+          theme: "major-theme editorial planning",
+          emoji: "🧭",
+        },
+      },
+      {
+        id: "research",
+        workspace: "~/.openclaw/workspace-media-research",
+        identity: {
+          name: "Research Scout",
+          theme: "evidence and source support",
+          emoji: "🔎",
+        },
+      },
+      {
+        id: "ops",
+        workspace: "~/.openclaw/workspace-media-ops",
+        identity: {
+          name: "Planning Ops",
+          theme: "feasibility and rollout",
+          emoji: "🧩",
+        },
+      },
+    ],
+  },
+
+  // Add routing bindings with the CLI, for example:
+  // openclaw agents bind --agent planner --bind telegram:editorial
+  // openclaw agents bind --agent research --bind telegram:research
+  // openclaw agents bind --agent ops --bind telegram:ops
+}

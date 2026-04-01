@@ -1,0 +1,19 @@
+{
+  agents: {
+    defaults: {
+      workspace: "~/.openclaw/workspace-media-planner",
+      skipBootstrap: true,
+    },
+    list: [
+      {
+        id: "main",
+        workspace: "~/.openclaw/workspace-media-planner",
+        identity: {
+          name: "Media Planner",
+          theme: "major-theme editorial planning",
+          emoji: "🧭",
+        },
+      },
+    ],
+  },
+}
